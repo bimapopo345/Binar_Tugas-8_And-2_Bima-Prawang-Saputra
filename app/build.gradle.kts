@@ -69,6 +69,9 @@ dependencies {
     implementation(project(":data"))
     implementation ("androidx.work:work-runtime-ktx:2.7.1")
     implementation ("jp.wasabeef:blurry:4.0.1")
+    implementation ("com.google.firebase:firebase-perf:20.0.4")
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+
 
     implementation("com.github.chuckerteam.chucker:library:3.5.2")
     debugImplementation("com.github.chuckerteam.chucker:library:3.5.2")
